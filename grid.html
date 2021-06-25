@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #parent{   
+       
+        width: 600px;
+        height: 600px;
+        border: 3px solid black;
+        display: grid;
+        grid-template-areas:"a1 a2 a3" 
+        "a4 a5 a5"
+        "a6 a5 a5";
+
+    }
+    #a1{
+        grid-area: a1;
+background-color: brown;
+    }
+    #b2{
+        grid-area: a2;
+background-color: chartreuse;
+    }
+    #c3{
+        grid-area: a3;
+background-color: crimson;
+    }
+    #d4{
+grid-area: a4;
+background-color: black;
+    }
+    #e5{
+        grid-area: a5;
+background-color: deeppink;
+    }
+    #f6{
+        grid-area: a6;
+        background-color: dodgerblue;
+    }
+</style>
+<body>
+    <div id="parent">
+    <div id="a1"></div>
+    <div id="b2"></div>
+    <div id="c3"></div>
+    <div id="d4"></div>
+    <div id="e5"></div>
+    <div id="f6"></div>
+</div>
+
+</body>
+</html>
